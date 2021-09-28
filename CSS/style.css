@@ -52,9 +52,10 @@ body{
     align-items: center;
 }
 
-/* .form-img{
-    display: none;
-} */
+.form-img{
+    width: 400px;
+    height: 400px;
+}
 
 .form-content{
     width: 300px;
