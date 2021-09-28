@@ -48,13 +48,13 @@ body{
 .main-form{
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.form-img{
+/* .form-img{
     display: none;
-}
+} */
 
 .form-content{
     width: 300px;
@@ -62,9 +62,10 @@ body{
 }
 
 .form-title{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     text-align: center;
     font-weight: 900;
+    font-size: large;
     color: white;
 }
 
@@ -114,17 +115,8 @@ body{
     border: none;
     color: white;
     font-size: medium;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
-
-#input1:focus {
-    
-    #label1 :{
-        text-size : 500;
-    }
-}
-
-
 
 .form-link{
     display: block;
@@ -155,9 +147,6 @@ body{
     /* transition: .5s; */
 }
 
-.form-button:hover{
-    box-shadow: 0 2px 1px rgba(236, 232, 232, 0.15);
-}
 
 .form-social{
     text-align: center;
@@ -166,7 +155,7 @@ body{
 .form-social-text{
     display: block;
     font-size: medium;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .form-social-icon{
@@ -178,4 +167,11 @@ body{
 .form-social-icon:hover{
     color: grey;
     transition: .5s;
+}
+
+@media screen and (max-width:800px){
+    .form-img{
+        display:none;
+    }
+    
 }
